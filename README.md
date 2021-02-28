@@ -7,10 +7,12 @@ A GraphQL server setup with a basic user object. The server connects to a MongoD
 
 ## Project Structure  
 The project consists of the following files and folders:
-* index.js
-* schema
-* models
-* package.json
+* src/
+  * server.js - Server config and initialization
+  * models/ - DB models
+  * resolvers/ - Resolver functions for queries and mutations
+  * typeDefs/ - types and their queries and mutations
+* package.json - contains servers dependencies
 
 In addiditon to this, you will need a .env file. See installation on how this should look.
 
